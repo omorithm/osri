@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osri"
+version = "0.1.0"
+description = "An open-source intelligence platform for analyzing the health, sustainability, and resilience of software projects."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Omorithm"}
+]
+keywords = [
+    "open-source",
+    "software-health",
+    "repository-analysis",
+    "resilience",
+    "developer-tools"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
